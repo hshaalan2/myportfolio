@@ -9,7 +9,6 @@ body {
     background-color:whitesmoke;
 }
 
-/*The next 5 selectors pertain to the header section containing styles for the header div with the site title,the h1 used for title, the headernav class for navigation menus and the header li items and finally the anchor tags on those nav menu items*/
 header {
     padding: 20px;
     background-color:black;
@@ -46,7 +45,6 @@ h1 {
     font-weight: bolder;
 }
 
-/*The next 2 selectors pertain to the hero section including styling for the hero image and the h2 subtitle*/
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero2.jpg");
     height: 300px;
@@ -66,8 +64,6 @@ h1 {
     background-color:cadetblue;
     font-size: 32px;
 }
-
-/*The next 5 selectors pertain to the first grid container. For each of the 3 containers on page, I created three classes for entire container, the sidebar, and main section*/
 
 .gridcontainer1 {
     display: grid;
@@ -125,7 +121,6 @@ h1 {
     
 }
 
-/*The next 5 selectors pertain to the second grid container. For each of the 3 containers on page, I created three classes for entire container, the sidebar, and main section plus selectors for image and h2*/
 .gridcontainer2 {
     display: grid;
     grid-template-columns: 20% 40% 40%  ;
@@ -133,7 +128,13 @@ h1 {
     /* border: solid;color:black; */
 }
 
-
+.gridcontainer2 img {
+    width: 100%;
+    height: 250px;
+    border:cadetblue;
+    border-style: solid;
+    border-width: 5px;
+}
 .gridsidebar2 {
     /* background-color: brown; */
     color: darkblue;
@@ -154,30 +155,8 @@ h1 {
    font-size: medium;
    margin-right: 25px;
    margin-bottom: 40px;
-   position: relative;
-   text-align: center;
 }
 
-.gridmain2 h2 {
-    display: inline-block;
-    font-size: 48px;
-    background-color:cadetblue;
-    color: black;
-    padding-left: 50px;  
-    /* margin: 200px; */
-    position: relative;
-    /*float: right; */
-}
-
-.gridcontainer2 img {
-    width: 100%;
-    height: 250px;
-    border:cadetblue;
-    border-style: solid;
-    border-width: 5px;
-}
-
-/*The next 5 selectors pertain to the third grid container. For each of the 3 containers on page, I created three classes for entire container, the sidebar, and main section plus selectors for image and no h2 since none were used */
 .gridcontainer3 {
     display: grid;
     grid-template-columns: 20% 15% 15% 15% 15% 15% ;
@@ -185,11 +164,11 @@ h1 {
     /* border: solid;color:black; */
 }
 
-.gridmain3    {
-    text-align: center;
-    padding-top: 50px;
-    font-size: x-large;
+.gridcontainer3 img {
+    width: 100%;
+    height: 250px;
 }
+
 
 .gridsidebar3 {
     /* background-color: brown; */
@@ -207,12 +186,27 @@ h1 {
     border-style: solid;
 }
 
-.gridcontainer3 img {
-    width: 100%;
-    height: 250px;
+.gridmain2 {
+   /* color:blue; */
+   font-size: medium;
+   margin-right: 25px;
+   margin-bottom: 40px;
+   position: relative;
+   text-align: center;
+   /* width: 100%; */
 }
 
-/*the bottom left container styles the subtitles on the 4 small apps*/
+.gridmain2 h2 {
+    display: inline-block;
+    font-size: 48px;
+    background-color:cadetblue;
+    color: black;
+    padding-left: 50px;  
+    /* margin: 200px; */
+    position: relative;
+    /*float: right; */
+}
+
 .bottomleft {
     position: absolute;
     bottom: 50px;
@@ -222,7 +216,6 @@ h1 {
     color: white;
   }
 
-  /*the bottom right container styles the subtitles on the 1 large app*/
   .bottomright  {
     position: relative;
     top: 150px;
@@ -234,16 +227,20 @@ h1 {
     background-color: cadetblue;
     color: white;
   }
+  .gridmain3    {
+      text-align: center;
+      padding-top: 50px;
+      font-size: x-large;
+  }
 
-/*Responsive Design section*/
-  /* On screens that are 992px wide or less, retain the 100% width */
+  /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
     .gridcontainer1, .gridcontainer2 , .gridcontainer3 ,.gridmain1 , .gridmain2 , .gridmain3 ,.gridsidebar1 , .gridsidebar2 ,.gridsidebar3 {
       width: 100%;
     }
   }
   
-  /* On screens that are 600px wide or less, reduce font size */
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .gridcontainer1, .gridcontainer2 , .gridcontainer3 ,.gridmain1 , .gridmain2 , .gridmain3 ,.gridsidebar1 , .gridsidebar2 ,.gridsidebar3 .bottomleft , .bottomright h3 {
         font-size: 12px;
@@ -253,7 +250,7 @@ h1 {
     }
   }
 
-    /* On screens that are 600px wide or less, reduce font size on selected elements and adjust the grid template columns to hide the side bar and split the main grid into two equal sections */
+    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
 h1, h2 , h3 , h6, p {
             font-size: small;
@@ -261,14 +258,13 @@ h1, h2 , h3 , h6, p {
         }
       }
 
-    /* On screens that are 600px wide or less, reduce font size on paragraphs in the Contact section */
       @media screen and (max-width: 600px) {
         .gridmain3 p {
                     font-size: x-small;
                     text-align: justify;
                 }
               }
-    /* On screens that are 600px wide or less, adjust the hero section settings */
+
               @media screen and (max-width: 600px) {
               .hero h2 {
                 /* background-color:cadetblue; */
@@ -280,7 +276,7 @@ h1, h2 , h3 , h6, p {
                 font-size: 12px;
             }
         }
-/* On screens that are 600px wide or less, reduce font size on navigation menus */
+
         @media screen and (max-width: 600px) {
         .headernav {
             padding-top: 0px;
