@@ -213,9 +213,9 @@ h1 {
   }
 
   .bottomright  {
-    position: relative;
-    bottom: 50px;
-    left: 500px;
+    position: absolute;
+    bottom: -450px;
+    left: 400px;
     font-size: 28px;
     background-color: cadetblue;
     color: white;
