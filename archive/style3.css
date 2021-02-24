@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:whitesmoke;
+    background-color:whitesmoke; 
 }
 
 header {
@@ -46,10 +46,10 @@ h1 {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero1.jpg");
     height: 300px;
     width: 100%;
-    /* margin-bottom: 25px; */
+    margin-bottom: 25px;
     background-size: cover;
     background-position: center;
     
@@ -69,21 +69,19 @@ h1 {
     display: grid;
     grid-template-columns: 20% 80%;
     width: 100%;
-    margin-top: 0px;
-    /* border:solid; */
     /* border: solid;color:black; */
 }
 
 .gridsidebar1 {
     /* background-color: brown; */
-    color: rgb(55, 55, 94);
+    color: rgb(24, 24, 97);
     font-size: 32px;
     text-align: right;
     /* float: right; */
     margin-right: 25px;
     margin-bottom: 40px;
     padding-right: 10px;
-    border-right: rgb(55, 55, 94);
+    border-right: darkblue;
     border-bottom: whitesmoke;
     border-top: whitesmoke;
     border-left: whitesmoke;
@@ -92,15 +90,12 @@ h1 {
 
 .gridmain1 {
    /* color:blue; */
-   font-size: large;
+   font-size: medium;
    margin-right: 25px;
    margin-bottom: 25px;
-   /* height: 100%;
-   width: 100%; */
-   
 }
 
-.gridmain1 h2 {
+gridmain1 h2 {
     color: black;
     position: relative;
     font-size: 32px;
@@ -108,12 +103,6 @@ h1 {
     left:0;
     width: 100%;
     text-align: end;
-    
-}
-
-.gridmain1 img {
-    /* height: 50%; */
-    width: 100%;
     
 }
 
@@ -127,9 +116,6 @@ h1 {
 .gridcontainer2 img {
     width: 100%;
     height: 250px;
-    border:cadetblue;
-    border-style: solid;
-    border-width: 5px;
 }
 .gridsidebar2 {
     /* background-color: brown; */
@@ -139,12 +125,25 @@ h1 {
     /* float: right; */
     margin-right: 25px;
     margin-bottom: 40px;
-    border-right: rgb(55, 55, 94);
+    
+}
+
+.gridsidebar3 {
+    /* background-color: brown; */
+    color: darkblue;
+    font-size: 32px;
+    text-align: right;
+    /* float: right; */
+    margin-right: 25px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+    border-right: darkblue;
     border-bottom: whitesmoke;
     border-top: whitesmoke;
     border-left: whitesmoke;
     border-style: solid;
-    }
+    
+}
 
 .gridmain2 {
    /* color:blue; */
@@ -163,22 +162,31 @@ h1 {
 .gridcontainer3 img {
     width: 100%;
     height: 250px;
-}
 
 
-.gridsidebar3 {
+
+.gridsidebar2 {
     /* background-color: brown; */
-    color: rgb(55, 55, 94);
+    color: darkblue;
     font-size: 32px;
     text-align: right;
     /* float: right; */
     margin-right: 25px;
     margin-bottom: 40px;
-    padding-right: 10px;
-    border-right: rgb(55, 55, 94);
-    border-bottom: whitesmoke;
-    border-top: whitesmoke;
-    border-left: whitesmoke;
+}
+
+.gridsidebar3 {
+    /* background-color: brown; */
+    color: darkblue;
+    font-size: 32px;
+    text-align: right;
+    /* float: right; */
+    margin-right: 25px;
+    margin-bottom: 40px;
+    border-right: darkblue;
+    border-bottom: white;
+    border-top: white;
+    border-left: white;
     border-style: solid;
 }
 
@@ -203,25 +211,29 @@ h1 {
     /*float: right; */
 }
 
-.bottomleft {
+/* .bottomleft {
     position: absolute;
     bottom: 50px;
     left: 40px;
     font-size: 28px;
     background-color: cadetblue;
-    color: white;
-  }
+    padding: 5px;
+  } */
 
-  .bottomright  {
+.bottomleft h3 {
     position: absolute;
     bottom: 50px;
-    left: 500px;
+    left: 40px;
     font-size: 28px;
     background-color: cadetblue;
-    color: white;
+    padding: 5px;
   }
-  .gridmain3    {
-      text-align: center;
-      padding-top: 50px;
-      font-size: x-large;
+
+  .bottomleft h4 {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    font-size: 20px;
+    background-color: cadetblue;
+    padding: 5px;
   }

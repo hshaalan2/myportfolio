@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color:white; 
+}
+
+header {
+    padding: 20px;
+    background-color:black;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color:cadetblue;
+    color: black;
+    padding-left: 50px;
+    
+}
+
+
+.headernav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    }
+
+
+.headernav ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.headernav a {
+    color:cadetblue;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.hero {
+    background-image: url("../images/hero1.jpg");
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero h2 {
+    /* background-color:cadetblue; */
+    color: black;
+    margin: 200px;
+    position: relative;
+    float: right;
+    background-color:cadetblue;
+    font-size: 32px;
+}
+
+/* h2 {
+    /* background-color:cadetblue; */
+    color: red;
+    /* margin: 200px;
+    position: relative;
+    float: right; */
+    background-color:cadetblue;
+    font-size: 32px;
+}  */
+
+h2 {
+    display: inline-block;
+    font-size: 48px;
+    background-color:cadetblue;
+    color: black;
+    padding-left: 50px;  
+}
