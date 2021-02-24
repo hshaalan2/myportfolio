@@ -213,7 +213,7 @@ h1 {
   }
 
   .bottomright  {
-    position: absolute;
+    position: relative;
     bottom: 50px;
     left: 500px;
     font-size: 28px;
