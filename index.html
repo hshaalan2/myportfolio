@@ -26,30 +26,41 @@
 
     <div class="row">
       <div class="large-12 columns">
-        <div class="nav-bar right">
+        <div class="nav-bar left">
          <ul class="button-group">
-           <li><a href="#" class="button">Link 1</a></li>
-           <li><a href="#" class="button">Link 2</a></li>
-           <li><a href="#" class="button">Link 3</a></li>
-           <li><a href="#" class="button">Link 4</a></li>
+           <li><a href="#aboutme" class="button">About Me</a></li>
+           <li><a href="#jobsearch" class="button">Jobs App</a></li>
+           <li><a href="#weather" class="button">Weather Dashboard</a></li>
+           <li><a href="#password" class="button">Password Generator</a></li>
+           <li><a href="#quiz" class="button">Quiz App</a></li>
+           <li><a href="#contact" class="button">Contact Me</a></li>
           </ul>
         </div>
-        <h1>Hany Shaalan</h1>
+        <!-- <h1>Hany Shaalan</h1> -->
         <hr/>
       </div>
     </div>
 
+      <div class="row">
+      <div class="large-12 columns">
+    <header class="hero" style="background-image: url(assets/images/hero2.jpg);">
+      <h1> Hany Shaalan</h1>
+      <p id="slogan">Aspiring Web Developer for Hire</p>
+    </header>
+          </div>
+    </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="large-12 columns">
         <img src="/assets/images/hero2.jpg">
+        <h1>Hany Shaalan</h1>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
       <hr>
       <div class="large-8 columns">
-        <h4>About Me</h4>
+        <h4 id="aboutme">About Me</h4>
         <p>Aspiring Web Developer with 21 years of IT experience including 14 years of hands-on and management experience in the Microsoft SharePoint platform. Extensive skills in SharePoint architecture, Office 365, farm administration, cloud solutions, workflow development, knowledge management portals, business intelligence dashboards and group collaboration solutions. Proven team leadership track record. Very disciplined in Agile and all aspects of SDLC.
           <br>
           <br>
@@ -67,9 +78,9 @@
       <hr>
       <h3>Web Development Portfolio</h3>
       <div class="large-12 columns">
-        <h4>Job Search</h4>
+        <h4 id="jobsearch">Job Search</h4>
         <p>Product of group project #1 app that allows searching for government jobs while viewing quality of life data</p>
-         <p><a href="https://tsilvab.github.io/Homies" target="_blank" ><img class="app-images" src="/assets/images/myproject_homies.png" alt="Job Search App"></a>The  Homies app allows job seekers to search for federal job opportunities in major US cities while receiving detailed quality of life data on those locations. Quality of life data includes 16 categories ranging from housing to education to tolerance level to art and culture and scored on a 10-point scale. <br> 
+         <p><a href="https://tsilvab.github.io/Homies" target="_blank" ><img class="app-images" src="/assets/images/myproject_homies.png" alt="Job Search App"></a>The  Homies app allows job seekers to search for federal job opportunities in major US cities while receiving detailed quality of life data on those locations. Quality of life data includes 16 categories ranging from housing to education to tolerance level to art and culture and scored on a 10-point scale. Local storage was implemented to store the user's last visit date and last search criteria<br> 
           <br> 
           Job search is powered by API from USAJobs.org while quality of life data was provided by Teleport.org API.</p> 
          <br> 
@@ -81,13 +92,13 @@
     <div class="row">
       <hr>
       <div class="large-12 columns">
-        <h4>Weather Dashboard</h4>
-        <p>Get 5-day weather forecast in any city around the world</p>
-        <p><a href="https://hshaalan2.github.io/weather" target="_blank" ><img class="app-images" src="/assets/images/myapp_weather.png" alt="Job Search App"></a>The  Weather Dashboard app leverages API from OpenWeather.org to search weather in all major cities around the globe and retreive detailed 5-day weather. <br> 
+        <h4 id="weather">Weather Dashboard</h4>
+        <p>Get a 5-day weather forecast in any city around the world</p>
+        <p><a href="https://hshaalan2.github.io/weather" target="_blank" ><img class="app-images" src="/assets/images/myapp_weather.png" alt="Job Search App"></a>The  Weather Dashboard app leverages API from OpenWeather.org to search weather in all major cities around the globe and retreive a detailed 5-day weather. Local storage saves the last ten cities searched.<br> 
           <br> 
-          Job search is powered by API from USAJobs.org while quality of life data was provided by Teleport.org API.</p> 
+          Interestingly, a second API had to be used to fetch UV Index data and then conditional statments were utilizied to color the UV value to indicate severity level.</p> 
          <br> 
-         The corresponding GitHub repository can be accessed <a href="https://github.com/tsilvab/Homies" target="_blank">here</a> and the deployed app <a href="https://tsilvab.github.io/Homies" target="_blank">here</a>
+         The corresponding GitHub repository can be accessed <a href="https://github.com/hshaalan2/weather" target="_blank">here</a> and the deployed app <a href="https://hshaalan2.github.io/weather/" target="_blank">here</a>
 
       </div>
     </div>
@@ -95,39 +106,47 @@
     <div class="row">
       <hr>
       <div class="large-12 columns">
-        <h4>Password Generator</h4>
-        <p>Auto generate a strong password based on your selected criteria</p>
-        <p><a href="https://hshaalan2.github.io/passwordgenerator" target="_blank" ><img class="app-images" src="/assets/images/myapp_password.png" alt="Job Search App"></a>text goes here</p>
+        <h4 id="password">Password Generator</h4>
+        <p>Auto generate a strong password based on  selected criteria</p>
+        <p><a href="https://hshaalan2.github.io/passwordgenerator" target="_blank" ><img class="app-images" src="/assets/images/myapp_password.png" alt="Job Search App"></a>The  Password Generator allows a user to select various password criteria including lenght and inclusion of wild characters, upper cases or numbers.<br> 
+          <br> 
+         Alerts, prompts and confirmation dialoges were utilizied to capture input and display output.</p> 
+         <br> 
+         The corresponding GitHub repository can be accessed <a href="https://github.com/hshaalan2/passwordgenerator" target="_blank">here</a> and the deployed app <a href="https://hshaalan2.github.io/passwordgenerator/" target="_blank">here</a>
       </div>
     </div>
 
     <div class="row">
       <hr>
       <div class="large-12 columns">
-        <h4>Quiz</h4>
+        <h4 id="quiz">Quiz</h4>
         <p>Take a timed quiz to test your JavaScript knowledge</p>
-        <p><a href="https://hshaalan2.github.io/quiz" target="_blank" ><img class="app-images" src="/assets/images/myapp_quiz.png" alt="Job Search App"></a>text goes here</p>
+        <p><a href="https://hshaalan2.github.io/quiz" target="_blank" ><img class="app-images" src="/assets/images/myapp_quiz.png" alt="Job Search App"></a>While the deployed app presents the user with a JavaScript Quiz, it could be refactored for any type of quiz.<br> 
+          <br> 
+         The quiz's time limit, questions, answer choices, scoring criteria can be easily customized to suit a variet of puproses. </p> 
+         <br> 
+         The corresponding GitHub repository can be accessed <a href="https://github.com/hshaalan2/quiz" target="_blank">here</a> and the deployed app <a href="https://hshaalan2.github.io/quiz/" target="_blank">here</a>
       </div>
     </div>
 
     <div class="row">
       <div class="large-12 columns">
         <hr>
-        <h4>Contact Me</h4>
+        <h4 id="contact">Contact Me</h4>
         <div class="large-2 columns">
-          <img class="icons" src="assets/images/email_icon_bw.png">
+          <p><a href="mailto:hshaalan@gmail.com" target="_blank" ><img class="icons" src="/assets/images/email_icon_bw.png" alt="Email icon"></a>
           <a href="mailto:hshaalan@gmail.com">Email</a>
         </div>
         <div class="large-2 columns">
-          <img class="icons" src="assets/images/linkedin_icon.jpg">
+          <p><a href="https://www.linkedin.com/in/hany-shaalan-71261535" target="_blank" ><img class="icons" src="assets/images/linkedin_icon.jpg" alt="LinkedIn icon"></a>
           <a href="https://www.linkedin.com/in/hany-shaalan-71261535" target="_blank">LinkedIn</a>
         </div>
         <div class="large-2 columns">
-          <img class="icons" src="assets/images/GitHub_con.png">
+          <p><a href="https://github.com/settings/profile" target="_blank" ><img class="icons" src="assets/images/GitHub_con.png" alt="GitHub icon"></a>
           <a href="https://github.com/settings/profile" target="_blank">GitHub</a>
         </div>
         <div class="large-2 columns">
-          <img class="icons" src="assets/images/PDF_icon.png">
+          <p><a href="assets/files/Hany_Shaalan_Resume.pdf" target="_blank" ><img class="icons" src="assets/images/PDF_icon.png" alt="GitHub icon"></a>
           <a href="/assets/files/Hany_Shaalan_Resume.pdf" target="_blank">Resume</a>
         </div>
         <div class="large-2 columns">

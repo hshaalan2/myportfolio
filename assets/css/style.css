@@ -10,6 +10,13 @@ body {
 }
 
 /* class for icon images in the bottom of the page*/
+#slogan {
+    background-color:white;
+    color:chocolate;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 .icons {
     width: 25px;
     height: 25px;
