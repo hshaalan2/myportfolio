@@ -9,6 +9,11 @@ body {
     background-color:whitesmoke;
 }
 
+/* class for icon images in the bottom of the page*/
+.icons {
+    width: 25px;
+    height: 25px;
+}
 /*The next 5 selectors pertain to the header section containing styles for the header div with the site title,the h1 used for title, the headernav class for navigation menus and the header li items and finally the anchor tags on those nav menu items*/
 header {
     padding: 20px;
