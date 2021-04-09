@@ -14,6 +14,14 @@ body {
     width: 25px;
     height: 25px;
 }
+
+/* class for app sample images*/
+.app-images {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
 /*The next 5 selectors pertain to the header section containing styles for the header div with the site title,the h1 used for title, the headernav class for navigation menus and the header li items and finally the anchor tags on those nav menu items*/
 header {
     padding: 20px;
