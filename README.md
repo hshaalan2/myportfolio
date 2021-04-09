@@ -1,8 +1,13 @@
 Portfolio II Homework
+
 Student name: Hany Shaalan
+
 Site Title: My Portfolio: Hany Shaalan
+
 Application URL: https://hshaalan2.github.io/myportfolio
+
 GitHub Rep URL: https://github.com/hshaalan2/myportfolio
+
 
 Summary:
 This is the update Portfolio project taking in consideration the additional skills we have acquired since the first iteration.  
