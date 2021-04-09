@@ -35,6 +35,10 @@ body {
     padding-left: 15px;
     font-weight: bold;
 }
+/*adding italtics styling to app subtitles*/
+.app-subtitles {
+    font-style: italic;
+}
 
 /*The next 5 selectors pertain to the header section containing styles for the header div with the site title,the h1 used for title, the headernav class for navigation menus and the header li items and finally the anchor tags on those nav menu items*/
 header {
